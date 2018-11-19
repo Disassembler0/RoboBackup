@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.9
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoboBackupGUI", "RoboBackupGUI\RoboBackupGUI.csproj", "{7767BF21-EE40-448B-90ED-179A17E320CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoboBackupService", "RoboBackupService\RoboBackupService.csproj", "{43C4F764-ABBD-46A5-A184-C24DA8D7B203}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup", "Setup\Setup.vdproj", "{67B792FA-B73D-4763-8030-82E09091B380}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7767BF21-EE40-448B-90ED-179A17E320CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7767BF21-EE40-448B-90ED-179A17E320CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7767BF21-EE40-448B-90ED-179A17E320CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7767BF21-EE40-448B-90ED-179A17E320CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43C4F764-ABBD-46A5-A184-C24DA8D7B203}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43C4F764-ABBD-46A5-A184-C24DA8D7B203}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43C4F764-ABBD-46A5-A184-C24DA8D7B203}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43C4F764-ABBD-46A5-A184-C24DA8D7B203}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67B792FA-B73D-4763-8030-82E09091B380}.Debug|Any CPU.ActiveCfg = Debug
+		{67B792FA-B73D-4763-8030-82E09091B380}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B4D7F289-357D-443E-A9F6-8DEA052502AA}
+	EndGlobalSection
+EndGlobal
